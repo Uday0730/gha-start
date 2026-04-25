@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: test step
-        run: echo"performing test cases"
+        run: echo "performing test cases"
   deploy:
     runs-on: ubuntu-latest
     steps:
      - name: deploy step
-       run: echo"deploying application"
+       run: echo "deploying application"
      
           
         
