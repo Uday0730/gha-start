@@ -1,21 +1,22 @@
 name: Hello world
-on: 
-  push: 
+
+on:
+  push:
     branches:
-     -main
-     -develop
-     -'release/**'
+      - main
+      - develop
+      - 'release/**'
+
   pull_request:
     branches:
-      - -main   
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-     - name: Build step
-       run: echo "A demo run on sunday morning lets begin with it"
- 
-
+      - name: Build step
+        run: echo "A demo run on sunday morning lets begin with it"
 
 
      
